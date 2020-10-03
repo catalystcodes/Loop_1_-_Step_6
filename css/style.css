@@ -1,6 +1,10 @@
-body {}
+body {
+    background-color: #4d515d;
+}
 
 .whole {
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
+.container2 {}
