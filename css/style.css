@@ -1,10 +1,21 @@
 body {
     background-color: #4d515d;
+    overflow: hidden;
 }
 
 .whole {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
+    margin: auto 15rem;
+    padding-top: 3.4rem;
 }
 
-.container2 {}
+.container1 {
+    background-color: white;
+}
+
+.container2 {
+    height: 40rem;
+    background-image: url(../media/side.jpg);
+    background-size: cover;
+}
